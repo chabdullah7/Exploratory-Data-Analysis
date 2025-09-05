@@ -26,7 +26,7 @@ Jupyter Notebook
 
 Results
 
-Outliers handled → improved dataset reliability
+Outliers handled, improved dataset reliability
 
 Missing values imputed with domain-based strategies
 
