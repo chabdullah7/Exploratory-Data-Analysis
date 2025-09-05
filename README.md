@@ -1,35 +1,33 @@
-Project Overview
+# Exploratory Data Analysis on Car Dataset
 
-This project demonstrates a complete Exploratory Data Analysis (EDA) workflow on a car dataset. The objective is to clean, transform, and analyze raw data into meaningful insights, preparing it for Machine Learning models.
+## Project Overview
+This project performs an end-to-end exploratory data analysis (EDA) on a car dataset. It covers data cleaning, handling missing values, outlier detection, feature engineering, and visualizations to prepare a structured dataset for machine learning models.
 
-Key Features
+## Features
+- Data inspection and summary statistics
+- Handling missing values and duplicates
+- Outlier detection and treatment
+- Feature engineering and encoding
+- Correlation analysis and heatmaps
+- Interactive data visualization with Matplotlib and Seaborn
+- Final cleaned dataset ready for ML models
 
-Data Cleaning & Preprocessing (handling missing values, outliers, type conversions)
+## Tools and Libraries
+Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
 
-Exploratory Data Analysis (EDA) with statistical insights
+## Results
+- Cleaned and structured dataset with no missing values
+- Visual insights about car prices, mileage, brand distribution, and fuel types
+- Outlier handling improved dataset consistency
+- Dataset is now ML-ready
 
-Feature Engineering for ML model readiness
+## Project Structure
+Exploratory-Data-Analysis/  
+│── Exploratory_Data_Analysis.ipynb (main notebook)  
+│── README.md  
 
-Data Visualization using Matplotlib & Seaborn
-
-Structured pipeline output: Clean & ready-to-use dataset
-
-Tools & Libraries
-
-Python
-
-Pandas, NumPy
-
-Matplotlib, Seaborn
-
-Jupyter Notebook
-
-Results
-
-Outliers handled, improved dataset reliability
-
-Missing values imputed with domain-based strategies
-
-Feature engineering produced robust predictors for ML models
-
-Generated clear visualizations for trend analysis
+## How to Run
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/chabdullah7/Exploratory-Data-Analysis.git
+   cd Exploratory-Data-Analysis
